@@ -1,0 +1,65 @@
+/* Light green color theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.gallery-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set 4 columns */
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #b8e0cc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #006d5b;
+    border: 1px solid #b8e0cc;
+    border-radius: 5px;
+    background-color: #e0f5ea;
+}
+
+.pagination a.active {
+    background-color: #006d5b;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #009882;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+    box-shadow: inset 0 0 10px rgba(116, 107, 107, 0.849);
+    background-color: #000000;
+    margin-top: 0;
+    color: #ffffff;
+}

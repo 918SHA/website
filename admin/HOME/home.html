@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logout-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #f44336; /* Red color */
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: auto; /* Push to bottom */
+        }
+
+        .logout-btn:hover {
+            background-color: #d32f2f; /* Darker red on hover */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <h2>Admin Dashboard</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="../IMAGE MAINTAIN/gallery.PHP">Maintain Gallery</a></li>
+                <li><a href="../ADD ADMIN LOGING MAINTAIN/add_admin.php">Add Admins</a></li>
+                <li><a href="../BOOKING ACCEPT REJECT/display_bookings.php">Bookings</a></li>
+            </ul>
+            <button class="logout-btn" onclick="window.location.href='logout.php'">Logout</button> <!-- Logout button -->
+        </div>
+
+        <div><h1 style="width: 100%;">Welcome to Admin Dashboaed...</h1></div>
+</body>
+</html>

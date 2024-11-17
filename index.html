@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Malcolm Lismore</title>
+    <meta property="og:title" content="Malcolm Lismore" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: DM Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.3;
+        color: var(--dl-color-scheme-darkblue);
+        background-color: var(--dl-color-scheme-white);
+
+        fill: var(--dl-color-scheme-darkblue);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      .services-card:hover > div{
+      background-color: #b0c9b6
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="navigation-header">
+          <div class="navigation-max-width">
+            <img alt="logo" src="public/ml.png" width=91px, height=72.5px/>
+            <div class="navigation-nav">
+              <nav class="navigation-links-nav navigation-links-root-class-name17">
+
+                <ul style="list-style-type: none; padding: 0;">
+                  
+                  <li style="display: inline-block; margin-right: 10px;"><a href="#home-main" class="navigation-links-text1 Navigation-Link">Home</a></li>
+                  <li style="display: inline-block; margin-right: 10px;"><a href="#home-services section-container" class="navigation-links-text1 Navigation-Link">Services</a></li>
+                  <li style="display: inline-block; margin-right: 10px;"><a href="#section-container" class="navigation-links-text1 Navigation-Link">Portfolio</a></li>
+                  <li style="display: inline-block; margin-right: 10px;"><a href="Gallery Image View/gallery.php" class="navigation-links-text1 Navigation-Link">Gallery</a></li> 
+                  <li style="display: inline-block; margin-right: 10px;"><a href="#home-about section-container" class="navigation-links-text1 Navigation-Link">About Me</a></li>
+              </ul>
+              </nav>
+              <button>
+                <a href="booking.html" class="button-secondary button button-md">Booking</a>
+              </button>
+              <button>
+                <a href="Login-System-PHP-and-MYSQL-master/index.php" class="button-secondary button button-md">Admin</a>
+              </button>
+            </div>
+            <div data-role="BurgerMenu" class="navigation-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navigation-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="mobile-menu">
+              <div class="navigation-nav1">
+                <div class="navigation-container">
+                  <img alt="image" src="public/ml.png" width=54.6px, height=43.5px/>
+                  <div
+                    data-role="CloseMobileMenu"
+                    class="navigation-close-mobile-menu"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="navigation-icon2">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="home-main" id="home-main">
+          <div class="home-hero section-container">
+            <div class="home-max-width max-content-container">
+              <div class="home-heading-container">
+                <h1 class="home-text Heading1">
+                  <span>Malcolm Lismore</span>
+                  
+                </h1>
+                <span class="home-text03">
+                  <span>
+                    Discover Scotland's wild heart through sweeping landscapes, intricate coastal bird portraits, and weddings.
+                  </span>                  
+                </span>
+                     <button>
+                      <a href="about.html" class="home-primary button-primary button-lg button">Get in touch with me</a>
+                    </button>
+              </div>
+              <div class="home-gallery">
+                <div class="home-container1">
+                  <img
+                    alt="image"
+                    src="public/000.png"
+                    class="home-image"
+                  />
+                </div>
+                <div class="home-container2">
+                  <img
+                    alt="image"
+                    src="public/lion.png"
+                    class="home-image1"
+                  />
+                  <img
+                    alt="image"
+                    src="public/0.png" width=220px, height=253px
+                    class="home-image2"
+                  />
+                </div>
+                <div class="home-container3">
+                  <img
+                    alt="image"
+                    src="public/02.jpg" width=270px, height=187px
+                    class="home-image3"
+                  />
+                  <div class="home-container4">
+                    <img
+                      alt="image"
+                      src="public/kin.png" width=220px, height=188px
+                      class="home-image4"
+                    />
+                    <img
+                      alt="image"
+                      src="public/00.png" width=220px, height=188px
+                      class="home-image5"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-services section-container" id="home-services section-container">
+            <div class="home-max-width1 max-content-container">
+              <div class="home-heading-container1">
+                <div class="home-text-container">
+                  <span class="home-text07">our services</span>
+                  <h2 class="Heading2">
+                    <span>We provide a wide range of</span>
+                    <br />
+                    <span>creative solutions</span>
+                  </h2>
+                </div>
+                
+              </div>
+              <div class="home-cards-container">
+                <div class="services-card">
+                  <div class="services-card-container">
+                    <img
+                      alt="image"
+                      src="public/12.png" 
+                      class="services-card-image"
+                    />
+                  </div>
+                  <span class="services-card-text">
+                    <span>Weddings </span>
+                  </span>
+                  <span class="services-card-text1">
+                    <span>
+                      The photographer captures timeless, elegant, and unforgettable moments of weddings through stunning photography.
+                    </span>
+                  </span>
+                  <a href="service.html#wedding " class="services-card-text2">Learn more</a>
+                </div>
+                <div class="services-card">
+                  <div class="services-card-container">
+                    <img
+                      alt="image"
+                      src="public/15.jpg"
+                      class="services-card-image"
+                    />
+                  </div>
+                  <span class="services-card-text">
+                    <span>Special Event</span>
+                  </span>
+                  <span class="services-card-text1">
+                    <span>
+                      Preserve your event’s unforgettable moments with creative, professional photography tailored to your unique celebration.
+                    </span>
+                  </span>
+                  <span class="services-card-text2">
+                    <a href="service.html#Special " class="services-card-text2">Learn more</a>
+                  </span>
+                </div>
+                <div class="services-card">
+                  <div class="services-card-container">
+                    <img
+                      alt="image"
+                      src="public/16.webp"
+                      class="services-card-image"
+                    />
+                  </div>
+                  <span class="services-card-text">
+                    <span>Portraits</span>
+                  </span>
+                  <span class="services-card-text1">
+                    <span>
+                      Capture authentic, timeless portraits that reflect your personality, style, and confidence with our professional services.
+                    </span>
+                  </span>
+                  <span class="services-card-text2">
+                    <a href="service.html#portraits " class="services-card-text2">Learn more</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-container" id="section-container">
+            <div class="home-max-width2 max-content-container">
+              <div class="home-text-container1">
+                <span class="home-text12">My Portfolio</span>
+                <h2 class="home-text13 Heading2">
+                  <span>Explore my portfolio</span>
+                </h2>
+                <span class="home-text15">
+                  <span>
+                    Explore my portfolio showcasing the beauty of Scotland’s landscapes, weddings, and wildlife. 
+                  </span>
+                  <br />
+                  <span>
+                    Discover captivating images that reflect my passion for photography. Enjoy the journey through nature and special moments!
+                  </span>
+                </span>
+              </div>
+              <div class="home-tab-selector-header">
+                <a href="gallary.html">
+                  <span class="home-text19 tab-selector-btn">Wildlife</span>
+                </a>
+                <a href="gallaryland.html">
+                  <span class="home-text19 tab-selector-btn">Landscape</span>
+                </a>
+                <a href="gallarywed.html">
+                  <span class="home-text19 tab-selector-btn">Wedding</span>
+                </a>
+              </div>
+              <div class="home-tab-selector-cards-container">
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public/22.png"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallary.html#Red Squirrel" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Red Squirrel</span>
+                  </span>
+                </div>
+                
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name5"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public\Puffin2 (1).jpg"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallary.html#Puffin" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Puffin</span>
+                  </span>
+                </div>
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name4"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public\Seal.jpg"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallary.html#Harbour Seal" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Harbour Seal</span>
+                  </span>
+                </div>
+                
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name3"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public\Castle.jpg"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallaryland.html#Eilean Donan Castle" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>
+                      Eilean Donan Castle
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name2"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public\ullapool.webp"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallaryland.html#ullapool" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>ullapool</span>
+                  </span>
+                </div>
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name2"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public/Handa Island.jpg"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallaryland.html#Handa Island" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Handa Island</span>
+                  </span>
+                </div>
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name2"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public\wedding.jpg"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallarywed.html#K&C" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Katrina & Cameron Wedding</span>
+                  </span>
+                </div>
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name2"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public\wed.webp"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallarywed.html#S&S" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Sustainable & Stylish Wedding</span>
+                  </span>
+                </div>
+                <div
+                  class="portofolio-card-speaker-card portofolio-card-root-class-name1"
+                >
+                  <div class="portofolio-card-image-container">
+                    <img
+                      alt="image"
+                      src="public/wedd.jpg"
+                      class="portofolio-card-image"
+                    />
+                    <div class="portofolio-card-see-project-container">
+                      <button>
+                        <a href="gallarywed.html#J&J" class="button-secondary button button-md">See project</a>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="portofolio-card-first-name">
+                    <span>Jennifer & James Wedding</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-about section-container" id="home-about section-container">
+            <div class="home-max-width3 max-content-container">
+              <div class="home-text-container2">
+                <span class="home-text07">About Me</span>
+                <h2 class="home-text26 Heading2">
+                  <span>Create unforgettable</span>
+                  <br />
+                  <span>memories with me</span>
+                </h2>
+                <span class="home-text30">
+                  Capturing Scotland’s natural beauty and personal milestones with passion, dedication, and a deep connection to nature.
+                </span>
+                <div class="home-checklist">
+                  <div class="home-check-item">
+                    <svg viewBox="0 0 1024 1024" class="home-icon04">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text31">
+                      Quality services and support all time
+                    </span>
+                  </div>
+                  <div class="home-check-item1">
+                    <svg viewBox="0 0 1024 1024" class="home-icon06">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text32">
+                      Passionate about Capturing Scotland's Beauty
+                    </span>
+                  </div>
+                  <div class="home-check-item2">
+                    <svg viewBox="0 0 1024 1024" class="home-icon08">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text33">
+                      Over a Decade of Professional Experience
+                    </span>
+                  </div>
+                  <div class="home-check-item3">
+                    <svg viewBox="0 0 1024 1024" class="home-icon10">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text34">
+                      Personalized Client Approach
+                    </span>
+                  </div>
+                  <div class="home-check-item5">
+                    <svg viewBox="0 0 1024 1024" class="home-icon14">
+                      <path
+                        d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                      ></path>
+                    </svg>
+                    <span class="home-text36">
+                      Dedicated to Preserving Authentic Moments
+                    </span> 
+                  </div> <br>
+                  <button>
+                    <a href="about.html" class="button-secondary button button-md">Read More</a>
+                  </button>
+                </div>
+              </div>
+              <div class="home-image-container">
+                <img
+                  alt="image"
+                  src="public/mee.jpg" width=500px
+                  class="home-image6"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-process section-container">
+            <div class="home-max-width4 max-content-container">
+              <span class="home-text37">Our process of booking </span>
+              <h2 class="home-text38 Heading2">
+                <span>We Use Easy 5 Steps to Book Your Unforgettable Photography Experience.</span>
+                <br />
+                <span>Take a look.</span>
+              </h2>
+              <div class="home-step">
+                <span class="home-text42">01</span>
+                <div class="home-container5">
+                  <span class="home-text43">Click the "Booking" button</span>
+                  <span class="home-text44">
+                    Locate the navigation bar, which is typically indicated by the "Booking" button. Click here to begin the process of making your reservation for a special day. 
+                  </span>
+                </div>
+              </div>
+              <div class="home-step1">
+                <span class="home-text45">02</span>
+                <div class="home-container6">
+                  <span class="home-text46">Fill in Personal Details</span>
+                  <span class="home-text47">
+                    Provide your full name, contact information (phone number and email address), and the address of the location.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step1">
+                <span class="home-text45">03</span>
+                <div class="home-container6">
+                  <span class="home-text46">Schedule a Date</span>
+                  <span class="home-text47">
+                    Choose a session date from the available dates in the calendar view, ensuring it aligns with your schedule.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step1">
+                <span class="home-text45">04</span>
+                <div class="home-container6">
+                  <span class="home-text46">To submit request</span>
+                  <span class="home-text47">
+                    To finalize your booking, click the "Book Now" button. After submitting the form, you should receive a confirmation message and an email with all booking details.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step2">
+                <span class="home-text48">05</span>
+                <div class="home-container7">
+                  <span class="home-text49">Confirm of booking</span>
+                  <span class="home-text50">
+                    The confirmation email will provide crucial details about your session, such as the date, time, location, and any necessary preparation instructions.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-banner section-container">
+            <div class="home-max-width6 max-content-container">
+              <span class="home-text58">what are you waiting?</span>
+              <h2 class="home-text59 Heading2">
+                <span>Let’s collaborate!</span>
+              </h2>
+              <span class="home-text61">
+                <span>
+                  "Capture the magic of your special day with timeless photographs that tell your unique story.
+                </span>
+                <br />
+                <span>
+                   Whether it's a wedding, anniversary, or cherished family gathering, let me preserve your precious moments with professional photography services tailored to your vision. Contact me today to discuss how we can make your event unforgettable."
+                </span>
+              </span>
+              <button
+              ><a href="booking.html" class="home-primary3 button-lg button-secondary-white button">Book Now</a>
+              </button>
+            </div>
+          </div>
+        </main>
+        <div class="section-container">
+          <div class="max-content-container">
+            <div class="home-top-part">
+              <div class="home-links-container">
+                <div class="home-product-container">
+                  <span class="home-text65">Product</span>
+                  <a href="#home-main" class="home-text66">Home</a>
+                  <a href="#home-services section-container" class="home-text66">Services</a>
+                  <a href="#section-container" class="home-text66">Portofolio</a>
+                  <a href="#home-about section-container" class="home-text66">About Us</a>
+                </div>
+                <div class="home-contact-container">
+                  <span class="home-text73">Contact Me</span>
+                  <span class="home-text74">
+                    <span>+44 0141 234551908.</span>
+                    <br />
+                    <span>malcolm1908@gmail.com</span>
+                    <br />
+                    <span>SK Road</span>
+                    <br />
+                    <span>North West coast </span>
+                    <br />
+                    <span>Scotland</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-separator"></div>
+          <footer class="home-max-width8 max-content-container">
+            <img alt="image" src="public/ml.png" class="home-image7" />
+            <span class="home-text83">
+              <span>All rights recived @</span>
+              <span class="home-text85">Malcolm Lismore</span>
+              <span>| Designed by</span>
+              <span class="home-text87">Malcolm Lismore</span>
+              <span></span>
+            </span>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script defer="">
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllSliders();
+        };
+
+        const listenForUrlChanges = () => {
+          let url = location.href;
+          document.body.addEventListener(
+            "click",
+            () => {
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts();
+                  url = location.href;
+                }
+              });
+            },
+            true
+          );
+        };
+
+        const initializeAllSliders = () => {
+          const allSliders = document.querySelectorAll('[data-type="slider"]');
+          allSliders.forEach((slider) => {
+            initializeSlider(slider);
+          });
+        };
+
+        const initializeSlider = (slider) => {
+          const slides = slider.querySelectorAll('[data-type="slide"]');
+          const middle = Math.ceil(slides.length / 2);
+          let currentSlide = middle;
+
+          const nextSlideBtns = document.querySelectorAll(
+            '[data-action="nextSlide"]'
+          );
+          const previousSlideBtns = document.querySelectorAll(
+            '[data-action="previousSlide"]'
+          );
+
+          const changeSlide = (slideIndex, action) => {
+            currentSlide = slideIndex;
+
+            switch (action) {
+              case "next":
+                slideIndex === slides.length
+                  ? (currentSlide = 1)
+                  : currentSlide++;
+                break;
+              case "previous":
+                slideIndex === 1
+                  ? (currentSlide = slides.length)
+                  : currentSlide--;
+            }
+
+            const slide = slides[0];
+            if (!slide) {
+              console.error("No slides present");
+              return;
+            }
+            const style = window.getComputedStyle(slide);
+            slideWidth =
+              parseInt(style.width) +
+              parseInt(style.marginLeft) +
+              parseInt(style.marginRight);
+            const transformValue = -slideWidth * (currentSlide - middle);
+
+            slider.style.transform = `translateX(${transformValue}px)`;
+          };
+
+          previousSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "previous")
+            );
+          });
+
+          nextSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "next")
+            );
+          });
+        };
+
+        runAllScripts();
+      };
+    </script>
+  </body>
+</html>

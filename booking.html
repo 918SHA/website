@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Creative Agency Page</title>
+    <meta property="og:title" content="Creative Agency Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./index.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <style>
+      #ss {
+        width: calc(100% - 24px);
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #0A6522;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+      }
+      #qq {
+        width: calc(100% - 24px);
+      }
+    </style>
+</head>
+<body>
+    <button>
+        <a href="index.html" class="button-secondary button button-md">Back</a>
+    </button>
+    <form action="submit_form.php" method="POST" id="event-form">
+        <div class="form-container">
+            <label>Name:<br>
+                <input type="text" name="Name" required>
+            </label><br>
+            <label>Gmail:<br>
+                <input type="text" name="Gmail" required>
+            </label><br>
+            <label>Phone:<br>
+                <input type="text" name="phone" required>
+            </label><br>
+            <label>Event Type:<br>
+                <select name="cars">
+                    <option value="Weddings">Weddings</option>
+                    <option value="Special Events">Special Events</option>
+                    <option value="Portraits">Portraits</option>
+                </select>
+            </label><br>
+            <label>Event Date:<br>
+                <input type="date" name="event_date" required>
+            </label><br>
+            <label>Location:<br>
+                <input type="text" name="location" required>
+            </label><br>
+            <label>Message:<br>
+                <textarea id="ss"  name="message" rows="4" required></textarea>
+            </label><br>
+            <button id="qq" type="submit">Submit</button>
+            <button id="qq" type="reset">Reset</button>
+        </div>
+    </form>
+    <footer class="home-max-width8 max-content-container">
+        <img alt="image" src="public/ml.png" class="home-image7" />
+        <span class="home-text83">
+            <span>All rights reserved @</span>
+            <span class="home-text85">Malcolm Lismore</span>
+            <span>| Designed by</span>
+            <span class="home-text87">Malcolm Lismore</span>
+        </span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8dddd;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    color: #2d5a3e;
+}
+.section {
+    padding: 20px;
+    background-color: #d8f4d0;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.section:nth-child(even) {
+    background-color: #d8edb5;
+}
+
+@media (max-width: 768px) {
+    .photo-grid img {
+        width: 100%;
+        height: auto;
+    }
+}
+
